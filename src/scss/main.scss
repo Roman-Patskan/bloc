@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+.boots{
+  width: 542.27px;
+  height: 84.37px;
+  background-color: #FFFFFF;
+  border: 1.53407px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding-left: 33px;
+}
+
+body{
+  background-color: #A7D7C5;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Karla', sans-serif;
+}
+
+.house {
+  height: 698px;
+  width: 698px;
+  background-color: #F6FBF9;
+  border-radius: 49px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+
+  h1 {
+    margin-top: 67px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 55px;
+  }
+
+  p {
+    font-weight: 400;
+    text-align: center;
+    font-size: 23px;
+    padding-left: 111px;
+    padding-right: 111px;
+    margin: 6px;
+  }
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  input::placeholder { 
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 23.01px;
+    font-weight: 400;
+  }
+  input {outline:none;}
+  
+}
+
+.email {
+  margin: 0 auto;
+  margin-top: 43px;
+}
+
+.password {
+  margin: 23px auto;
+}
+
+.gor{
+  padding-top: 10px;
+
+  .btm{
+  width: 391.19px;
+  height: 90.51px;
+  padding: 0 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #84C7AE;
+  transition: background-color .2s ease;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  border-radius: 23.011px;
+  font-size: 33.7495px;
+  font-weight: 700;
+  }
+}
+
+.btm:hover {
+  background-color: #9fe0c8;
+}
+
+.il{
+  margin-top: 16px;
+  p{
+    font-size: 21.4769px;
+  }
+  a {
+    color: #000;
+  }
+}
